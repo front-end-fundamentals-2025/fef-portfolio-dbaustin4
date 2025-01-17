@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    font-family: 'Outfit';
+}
+
+@keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+/*created gradient pattern based off of this https://cssgradient.io */
+body{
+    display: block;
+    background: linear-gradient(
+    270deg,
+    #87ceeb,
+    #add8e6,
+    #afeeee,
+    #d8bfd8  
+    );
+    background-size: 800% 800%;
+    animation: gradientShift 12s ease infinite;
+}
+
+h1{
+    font-size: 54px;
+    color: aliceblue;
+}
+
+h2{
+    font-size: 24px;
+    color: aliceblue;
+}
+
+button{
+    border: none;
+    color: blue;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #04AA6D;
+    color: white;
+}
