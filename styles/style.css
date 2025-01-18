@@ -16,6 +16,26 @@
     }
 }
 
+.navbar{
+    background-color: #04AA6D;
+    top: 0;
+}
+
+.navbar a{
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.navbar a:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
 /*created gradient pattern based off of this https://cssgradient.io */
 body{
     display: block;
