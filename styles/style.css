@@ -17,12 +17,14 @@
 }
 
 .navbar{
+    position: absolute;
     background-color: #04AA6D;
     top: 0;
+    width: 100%;
 }
 
 .navbar a{
-    display: inline;
+    display: inline-block;
     color: white;
     text-align: center;
     font-size: 34px;
@@ -38,6 +40,7 @@
 
 /*created gradient pattern based off of this https://cssgradient.io */
 body{
+    padding-top: 30px;
     display: block;
     background: linear-gradient(
     270deg,
@@ -52,12 +55,16 @@ body{
 
 h1{
     font-size: 54px;
-    color: aliceblue;
+    color: #015033;
 }
 
 h2{
-    font-size: 24px;
-    color: aliceblue;
+    font-size: 40px;
+    color: #015033;
+}
+
+p1, li{
+    font-size: 30px;
 }
 
 button{
@@ -67,7 +74,7 @@ button{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 24px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
