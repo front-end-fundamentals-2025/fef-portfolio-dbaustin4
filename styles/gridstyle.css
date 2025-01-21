@@ -25,6 +25,13 @@ footer{
     grid-column: 1/4;
 }*/
 
+@media screen and (min-width: 340px) and (max-width: 840px) {
+    body{
+        background-color: black;
+        display: grid;
+    }
+}
+
 body{
     display: grid;
     /*grid-template-rows: 150px 150px 150px;*/
