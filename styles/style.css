@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("font.css");
+
+/*@font-face{
+    font-family: 'Oufit';
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+}*/
 
 *{
     font-family: 'Outfit';
