@@ -44,10 +44,10 @@
 body {
     background: linear-gradient(
     270deg,
-    #87ceeb,
-    #add8e6,
-    #afeeee,
-    #d8bfd8  
+    #1306c9,
+    #5476f0,
+    #bdc5c5,
+    #341ec1  
     );
     background-size: 800% 800%;
     animation: gradientShift 12s ease infinite;
@@ -67,7 +67,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 80%;
-    max-width: 900px;
+    max-width: 60%;
 }
   
 .form-section {
