@@ -19,28 +19,6 @@
     }
 }
 
-.navbar{
-    position: fixed;
-    background-color: #04AA6D;
-    top: 0;
-    width: 100%;
-}
-
-.navbar a{
-    display: inline-block;
-    color: white;
-    text-align: center;
-    font-size: 34px;
-    padding: 14px 20px;
-    text-decoration: none;
-    transition-duration: 0.4s;
-}
-
-.navbar a:hover{
-    background-color: antiquewhite;
-    color: black;
-}
-
 body {
     background: linear-gradient(
     270deg,
@@ -51,17 +29,14 @@ body {
     );
     background-size: 800% 800%;
     animation: gradientShift 12s ease infinite;
-    
-    margin: 0;
-    padding-top: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
 }
   
 .contact-container {
+    margin-top: 5vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

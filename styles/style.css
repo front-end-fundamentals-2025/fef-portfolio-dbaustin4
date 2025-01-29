@@ -1,10 +1,5 @@
 @import url("font.css");
 
-/*@font-face{
-    font-family: 'Oufit';
-    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-}*/
-
 *{
     font-family: 'Outfit';
 }
@@ -21,31 +16,8 @@
     }
 }
 
-.navbar{
-    position: absolute;
-    background-color: #04AA6D;
-    top: 0;
-    width: 100%;
-}
-
-.navbar a{
-    display: inline-block;
-    color: white;
-    text-align: center;
-    font-size: 34px;
-    padding: 14px 20px;
-    text-decoration: none;
-    transition-duration: 0.4s;
-}
-
-.navbar a:hover{
-    background-color: antiquewhite;
-    color: black;
-}
-
 /*created gradient pattern based off of this https://cssgradient.io */
 body{
-    padding-top: 30px;
     display: block;
     background: linear-gradient(
     270deg,

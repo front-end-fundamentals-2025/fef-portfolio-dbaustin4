@@ -1,0 +1,67 @@
+@import url("font.css");
+
+*{
+    font-family: 'Outfit';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.project-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 7%;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30%, 1fr));
+    gap: 5%;
+    width: 90%;
+    max-width: 90vw;
+}
+
+.project-box{
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+    padding: 25vh 7vh;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 524px){
+    .projects{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+@media screen and (min-width: 525px){
+    .projects{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .projects{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
