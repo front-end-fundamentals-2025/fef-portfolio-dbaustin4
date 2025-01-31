@@ -1,5 +1,6 @@
 .navbar {
-    background-color: #04AA6D;
+    background: rgba(20, 20, 20, 0.8); /* Dark semi-transparent */
+    backdrop-filter: blur(8px);
     width: 100%;
     padding: 0.1rem;
     display: flex;
@@ -7,7 +8,6 @@
     align-items: center;
 }
 
-/* Style the links */
 .nav-links {
     display: flex;
     gap: 1rem;
@@ -22,11 +22,10 @@
 }
 
 .nav-links a:hover {
-    background-color: antiquewhite;
-    color: black;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #f0c674;
 }
 
-/* Hide the menu icon by default */
 .menu-icon {
     display: none;
     font-size: 2rem;
@@ -34,16 +33,16 @@
     color: white;
 }
 
-/* Mobile view (dropdown menu) */
 @media screen and (max-width: 600px) {
     .nav-links {
-        display: none; /* Hide by default */
+        display: none;
         flex-direction: column;
         position: absolute;
         top: 60px;
         left: 0;
         width: 100%;
-        background-color: #04AA6D;
+        background: rgba(20, 20, 20, 0.9);
+        backdrop-filter: blur(10px);
         text-align: center;
         padding: 1rem 0;
     }
@@ -54,10 +53,10 @@
     }
 
     .menu-icon {
-        display: block; /* Show hamburger icon */
+        display: block; /* Hamburger Icon */
     }
 
     .nav-links.active {
-        display: flex; /* Show when toggled */
+        display: flex;
     }
 }

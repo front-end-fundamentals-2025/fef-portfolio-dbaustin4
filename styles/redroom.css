@@ -1,0 +1,89 @@
+@import url("font.css");
+
+*{
+    font-family: 'Outfit';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+body {
+    background: linear-gradient(
+    270deg,
+    #3d0000,  /* Deep dark red for mystery */
+    #730000,  /* Rich blood red for intensity */
+    #a22626,  /* Muted red for balance */
+    #5c0e0e   /* Dark crimson for a dramatic effect */
+    );
+    background-size: 800% 800%;
+    animation: gradientShift 12s ease infinite;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 5vw;
+    margin: 2vw 0;
+    border-radius: 10px;
+}
+
+.project-header {
+    background-color: #5c0e0e; /* Deep red for intensity */
+    color: white;
+    text-align: center;
+    padding: 8vw 5vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.project-overview { background-color: #731717; }
+.project-details { background-color: #8b1e1e; }
+.project-process { background-color: #a22626; }
+.project-outcome { background-color: #b32d2d; color: white; }
+.project-lessons { background-color: #c03838; color: white; }
+.project-cta { background-color: #d84343; color: white; text-align: center; }
+.project-footer {
+    background-color: #5c0e0e;
+    color: white;
+    text-align: center;
+    padding: 2vw;
+    border-top: 2px solid #731717;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+a {
+    color: #ffd700; /* Gold accent for a hint of mystery */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 8vw;
+    }
+}
