@@ -48,14 +48,14 @@ body{
     max-width: 90vw;
 }
 
-.project-box{
+.project-box {
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.1);
     color: white;
     text-align: center;
-    padding: 25vh 7vh;
-    font-size: 1.8rem;
+    padding: 0;
+    font-size: 1.2rem;
     border-radius: 1rem;
     box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -64,11 +64,43 @@ body{
     height: 100%;
 }
 
-.project-box img{
+/* 60% */
+.project-box img {
     width: 100%;
     height: 60%;
     object-fit: cover;
 }
+
+/* 30% */
+.project-text {
+    width: 100%;
+    height: 30%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+/* 10% */
+.project-button {
+    width: 100%;
+    height: 10%;
+    background: #b71c1c;
+    color: white;
+    text-decoration: none;
+    border-radius: 0 0 1rem 1rem;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.project-button:hover {
+    background: #8b0000;
+}
+
 
 @media screen and (max-width: 524px){
     .projects{
