@@ -42,6 +42,7 @@ body{
 
 .projects{
     display: grid; /*media queries at the bottom for grid generation*/
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 5%;
     width: 90%;
     max-width: 90vw;
@@ -103,14 +104,14 @@ body{
     font-size: larger;
 }
 
-@media screen and (max-width: 414px){
+/*@media screen and (min-width: 480px){
     .projects{
         grid-template-columns: 1fr;
     }
     
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 801px){
     .projects{
         grid-template-columns: 1fr 1fr;
     }
@@ -120,4 +121,4 @@ body{
     .projects{
         grid-template-columns: 1fr 1fr 1fr;
     }
-}
+}*/
