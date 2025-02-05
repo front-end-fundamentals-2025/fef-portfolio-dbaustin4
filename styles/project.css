@@ -103,20 +103,20 @@ body{
     font-size: larger;
 }
 
-@media screen and (max-width: 524px){
+@media screen and (max-width: 414px){
     .projects{
         grid-template-columns: 1fr;
     }
     
 }
 
-@media screen and (min-width: 525px){
+@media screen and (min-width: 768px){
     .projects{
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 769px){
     .projects{
         grid-template-columns: 1fr 1fr 1fr;
     }
