@@ -29,7 +29,7 @@ body{
         );
     color: #333;
     background-size: 800% 800%;
-    animation: gradientShift 12s ease infinite;
+    animation: gradientShift 20s ease infinite;
     height: 100vh;
 }
 
@@ -73,6 +73,7 @@ body{
 
 /* 26% */
 .project-text {
+    background: rgba(20, 20, 20, 0.8);
     width: 100%;
     height: 26%;
     padding: 1rem;
@@ -90,7 +91,7 @@ body{
     color: white;
     text-decoration: none;
     border-radius: 0 0 1rem 1rem;
-    transition: 0.3s;
+    transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: left;
