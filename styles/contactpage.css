@@ -107,4 +107,16 @@ body {
     object-fit: cover;
     max-width: 100%;
 }
+
+/*Confirmation Message*/
+.form-message {
+    color: green;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    display: block; /* Ensures it appears on a new line */
+}
+
+
   
