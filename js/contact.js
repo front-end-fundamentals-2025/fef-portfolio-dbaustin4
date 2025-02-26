@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const contactForm = document.querySelector("form");
 
-    // Create a message container dynamically
     const messageContainer = document.createElement("p");
     messageContainer.classList.add("form-message");
     contactForm.appendChild(messageContainer);
